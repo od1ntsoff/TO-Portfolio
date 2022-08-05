@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #9e3668;
+  --secondary-color: #f6a9ce;
+  --background: #fde3f0;
+  --accent-color: #691a40;
+  --text-color: black;
+  --header-font: "Quicksand", sans-serif;
+  --paragraph-font: "Mulish", sans-serif;
+}
+
+body {
+  background-color: var(--background);
+}
+
+nav {
+  background-color: var(--secondary-color);
+}
