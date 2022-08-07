@@ -39,17 +39,16 @@ h4,
 h5,
 h6 {
   font-family: var(--header-font);
+  color: var(--accent-color);
 }
 
 h1 {
   font-size: 96px;
   font-weight: bold;
-  color: var(--accent-color);
 }
 
 h2 {
   font-size: 64px;
-  color: var(--accent-color);
 }
 
 p {
@@ -138,4 +137,8 @@ img {
 
 .photo-image {
   max-width: 100%;
+}
+
+.content-container {
+  text-align: center;
 }
