@@ -95,6 +95,15 @@ img {
   text-align: center;
 }
 
+.contact-link {
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+
+.contact-link:hover {
+  color: var(--accent-color);
+}
+
 footer .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 60px;
