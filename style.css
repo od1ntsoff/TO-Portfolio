@@ -89,6 +89,12 @@ img {
   text-align: center;
 }
 
+.icons {
+  display: flex;
+  margin: 30px;
+  text-align: center;
+}
+
 footer .contact-box {
   background-color: var(--secondary-color);
   padding: 30px 60px;
