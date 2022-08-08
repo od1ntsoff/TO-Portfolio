@@ -51,6 +51,10 @@ h2 {
   font-size: 64px;
 }
 
+h4 {
+  font-size: 48px;
+}
+
 p {
   font-size: 20px;
   line-height: 30px;
@@ -85,6 +89,43 @@ img {
   text-align: center;
 }
 
+footer .contact-box {
+  background-color: var(--secondary-color);
+  padding: 30px 60px;
+  border-radius: 10px;
+}
+
+footer .contact-box p {
+  margin: 0;
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: var(--accent-color);
+  font-size: var(--header-font);
+  font-weight: bold;
+  font-size: 24px;
+  margin: 60px 0;
+}
+
+footer .email-link:hover {
+  color: var(--secondary-color);
+}
+
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--primary-color);
+  background-color: var(--secondary-color);
+  border-radius: 50%;
+  padding: 10px 14px;
+  transition: all 100ms ease-in-out;
+}
+
+footer .social-links a:hover {
+  color: white;
+  background-color: var(--accent-color);
+}
+
 @media (max-width: 900px) {
   h1 {
     font-size: 60px;
@@ -92,6 +133,10 @@ img {
 
   h2 {
     font-size: 44px;
+  }
+
+  h4 {
+    font-size: 26px;
   }
 
   p {
